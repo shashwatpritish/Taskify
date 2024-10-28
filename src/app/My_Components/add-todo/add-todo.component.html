@@ -1,0 +1,12 @@
+<form class="container" (ngSubmit)="onSubmit()">
+    <div class="mb-3">
+      <label for="title" class="form-label">Title</label>
+      <input type="text" [(ngModel)]="title" name="title" class="form-control" id="title">
+    </div>
+
+    <div class="mb-3">
+      <label for="description" class="form-label">Description</label>
+      <input type="text"  [(ngModel)]="desc" name="desc" class="form-control" id="description">
+    </div>
+    <button type="submit" class="btn btn-dark bg-gradient">Submit</button>
+</form><hr>
